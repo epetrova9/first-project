@@ -1,0 +1,118 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #f2f2f2;
+  /* выше установили ограничения для секции */
+}
+
+.logo {
+
+  width:  228px;
+  height: 32px;
+  }
+
+  .block__element_key_value {
+
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    margin: 0;
+  }
+
+  .header_title {
+
+    margin: 0;
+    padding-left: 64px;
+    width: 730px;
+    display: flex;
+    align-items: center;
+    font-size: 102px;
+    font-weight: 600px;
+    line-height: 96px;
+  }
+
+  .header_subtitle {
+
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    width: 388px;
+    left: 65px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+
+  }
+
+  .main_illustration {
+
+    width: 765px;
+    height: 608px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+  }
+
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header_square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
+}
+
+.description {
+
+flex-direction: row;
+height: 100vh;
+min-height: 600px;
+max-height: 756px;
+display: flex;
+justify-content: center;
+}
+
+.two-columns {
+
+  display:flex;
+  flex-direction:column;
+  width:80%;
+  min-width: 784px;
+  justify-content: space-between;
+}
+
+.brief {
+
+  width: 175px;
+}
+
+.paragraph {
+
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
